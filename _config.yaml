@@ -1,37 +1,16 @@
-# =========================
-#     Minimal Mistakes
-#     Configuration Propre
-# =========================
-
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
 
-# Informations du site
-title: "Mon Site"
-name: "Moi"
-description: "Site personnel"
+title: "My Site"
+description: "Personal website"
+name: "Me"
 
-# Navigation (si tu veux un menu)
-# Tu peux enlever toute cette section si tu préfères sans navbar
-# Crée ensuite _data/navigation.yml pour définir le menu
-# Sinon rien de spécial
-
-# Activation du dossier _pages/
 include:
   - _pages
 
-# Plugins autorisés par GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
 
-# URL du site (facultatif)
-# url: "https://username.github.io"
-# baseurl: ""
-
-markdown_ext: "md,markdown"
-
-# Fichiers à garder
-keep_files:
-  - .git
+markdown_ext: "md,markdown,html"
