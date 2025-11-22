@@ -16,11 +16,18 @@
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/assets/index-Cwqvy73K.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DZiOVkFw.css">
+    <script type="module" crossorigin src="/assets/index-SB1FFSyZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DvZT4Dws.css">
   </head>
 
   <body>
     <div id="root"></div>
+    <script>
+    const redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
+      history.replaceState(null, "", redirect);
+    }
+  </script>
   </body>
 </html>
