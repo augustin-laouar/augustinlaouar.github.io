@@ -99,24 +99,6 @@ const Publications = () => {
               </article>
             ))}
           </div>
-
-          <div className="mt-12 p-6 bg-muted/50 rounded-lg">
-            <h3 className="font-serif font-semibold text-lg mb-2">Citation Metrics</h3>
-            <div className="grid sm:grid-cols-3 gap-4 mt-4">
-              <div>
-                <p className="text-3xl font-bold text-primary">127</p>
-                <p className="text-sm text-muted-foreground">Total Citations</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-primary">12</p>
-                <p className="text-sm text-muted-foreground">h-index</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-primary">18</p>
-                <p className="text-sm text-muted-foreground">i10-index</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
