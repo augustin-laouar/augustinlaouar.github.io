@@ -17,57 +17,14 @@ interface Publication {
 const Publications = () => {
   const publications: Publication[] = [
     {
-      title: "Adaptive Learning Rates for Neural Networks: A Convergence Analysis",
-      authors: "You, J. Collaborator, A. Advisor",
-      venue: "International Conference on Machine Learning (ICML)",
-      year: 2024,
-      type: "conference",
-      links: {
-        pdf: "#",
-        code: "https://github.com",
-      },
-    },
-    {
-      title: "Interpretable Deep Learning for Medical Diagnosis: A Survey",
-      authors: "You, P. Partner, J. Smith",
-      venue: "Journal of Artificial Intelligence Research",
-      year: 2023,
-      type: "journal",
-      links: {
-        pdf: "#",
-        doi: "https://doi.org/10.1000/xyz123",
-      },
-    },
-    {
-      title: "Fairness-Aware Machine Learning: Challenges and Solutions",
-      authors: "You, M. Mentor",
-      venue: "NeurIPS Workshop on Fair AI",
-      year: 2023,
+      title: "Rethinking Geolocalization on the Internet",
+      authors: "Augustin Laouar, Loïc Desgeorges, Paul Schmitt, Francesco Bronzino",
+      venue: "ACM HotNets",
+      year: 2025,
       type: "workshop",
       links: {
-        pdf: "#",
-      },
-    },
-    {
-      title: "Transfer Learning for Low-Resource Natural Language Processing",
-      authors: "A. Colleague, You, B. Researcher",
-      venue: "Annual Meeting of the Association for Computational Linguistics (ACL)",
-      year: 2022,
-      type: "conference",
-      links: {
-        pdf: "#",
-        code: "https://github.com",
-      },
-    },
-    {
-      title: "Privacy-Preserving Federated Learning: A Comprehensive Study",
-      authors: "You, X. Expert, Y. Professor",
-      venue: "IEEE Transactions on Information Forensics and Security",
-      year: 2022,
-      type: "journal",
-      links: {
-        pdf: "#",
-        doi: "https://doi.org/10.1109/xyz",
+        pdf: "https://conferences.sigcomm.org/hotnets/2025/papers/hotnets25-final353.pdf",
+        doi: "https://dl.acm.org/doi/10.1145/3772356.3772421",
       },
     },
   ];
