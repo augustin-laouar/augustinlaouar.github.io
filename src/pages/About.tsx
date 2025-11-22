@@ -36,7 +36,7 @@ const About = () => {
                 <h3 className="font-serif font-semibold text-lg mb-4">Contact</h3>
                 <div className="space-y-3">
                   <a 
-                    href="mailto:researcher@university.edu" 
+                    href="mailto:name.lastname@ens-lyon.fr" 
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="h-4 w-4" />
@@ -87,7 +87,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold">MSc in Computer Science</h3>
                   <p className="text-muted-foreground">Université Claude Bernard Lyon 1, 2022 - 2024</p>
                   <p className="mt-2">
-                  Graduated with a GPA of 3.9/4.0 and completed an apprenticeship as a network engineer at
+                  Graduated with a GPA of 3.9/4.0 and completed an apprenticeship as a network engineer at 
                   <a href="https://www.viveris.fr" target="_blank" rel="noopener noreferrer">Viveris</a>.                  </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold">BSc in Computer Science</h3>
                   <p className="text-muted-foreground">Université de Lorraine, 2019 - 2022</p>
                   <p className="mt-2">
-                    Graduated with a GPA of 4.0/4.0 and completed an internship as a software engineer at
+                    Graduated with a GPA of 4.0/4.0 and completed an internship as a software engineer at 
                     <a href="https://worldline.com/" target="_blank" rel="noopener noreferrer">WorldLine</a>. 
                   </p>
                 </div>
