@@ -89,31 +89,6 @@ const CV = () => {
             </div>
           </section>
 
-          {/* Publications */}
-          <section className="mb-12">
-            <div className="flex items-center gap-3 mb-6">
-              <Award className="h-6 w-6 text-primary" />
-              <h2 className="text-3xl font-serif font-semibold">Publications</h2>
-            </div>
-            <div className="space-y-4">
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h3 className="font-semibold">
-                  Rethinking Geolocalization on the Internet
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  ACM HotNets 2025
-                </p>
-              </div>
-
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h3 className="font-semibold">
-                  SoK: Privacy Analysis of Geolocation Data Infrastructures
-                </h3>
-                <p className="text-sm text-muted-foreground">In preparation</p>
-              </div>
-            </div>
-          </section>
-
           {/* Research Experience */}
           <section className="mb-12">
             <div className="flex items-center gap-3 mb-6">
@@ -216,14 +191,55 @@ const CV = () => {
           <section className="mb-12">
             <div className="flex items-center gap-3 mb-6">
               <BookOpen className="h-6 w-6 text-primary" />
-              <h2 className="text-3xl font-serif font-semibold">
-                Teaching Experience
-              </h2>
+              <h2 className="text-3xl font-serif font-semibold">Teaching Experience</h2>
             </div>
 
-            <div className="space-y-3 text-muted-foreground">
-              <p>• Teaching Assistant — ENS Lyon (Sept 2025 – Present)</p>
-              <p>• Teaching Assistant — Networking, UCBL (Oct 2024 – Jan 2025)</p>
+            <div className="space-y-6 border-l-2 border-border pl-6 ml-3">
+
+              <div>
+                <h3 className="text-xl font-semibold">Teaching Assistant</h3>
+                <p className="text-muted-foreground">
+                  École Normale Supérieure de Lyon • Sept 2025 – Present
+                </p>
+                <ul className="mt-2 space-y-1 text-muted-foreground">
+                  <li>• Software engineering (C/C++, Python, Rust, Git) for master’s and bachelor’s students.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold">Teaching Assistant</h3>
+                <p className="text-muted-foreground">
+                  Université Claude Bernard Lyon 1 • Oct 2024 – Jan 2025
+                </p>
+                <ul className="mt-2 space-y-1 text-muted-foreground">
+                  <li>• Computer networking for master’s students.</li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+          {/* Publications */}
+          <section className="mb-12">
+            <div className="flex items-center gap-3 mb-6">
+              <Award className="h-6 w-6 text-primary" />
+              <h2 className="text-3xl font-serif font-semibold">Publications</h2>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h3 className="font-semibold">
+                  Rethinking Geolocalization on the Internet
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  ACM HotNets 2025
+                </p>
+              </div>
+
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h3 className="font-semibold">
+                  SoK: Privacy Analysis of Geolocation Data Infrastructures
+                </h3>
+                <p className="text-sm text-muted-foreground">In preparation</p>
+              </div>
             </div>
           </section>
 
