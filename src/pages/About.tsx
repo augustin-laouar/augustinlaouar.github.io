@@ -64,47 +64,7 @@ const About = () => {
               </div>
             </div>
           </div>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-serif font-semibold mb-6">Education</h2>
-            <div className="space-y-6">
-              <div className="flex gap-4">
-                <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold">PhD in Computer Science</h3>
-                  <p className="text-muted-foreground">École Normale Supérieure de Lyon, March 2025 - Present</p>
-                  <p className="mt-2">
-                    Research focus: architecture of Internet systems with an emphasis on network performance and privacy.
-                  </p>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    Advisor: Francesco Bronzino, Loïc Desgeorges
-                  </p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold">MSc in Computer Science</h3>
-                  <p className="text-muted-foreground">Université Claude Bernard Lyon 1, 2022 - 2024</p>
-                  <p className="mt-2">
-                  Graduated with a GPA of 3.9/4.0 and completed an apprenticeship as a network engineer at 
-                  <a href="https://www.viveris.fr" target="_blank" rel="noopener noreferrer">Viveris</a>.                  </p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <GraduationCap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold">BSc in Computer Science</h3>
-                  <p className="text-muted-foreground">Université de Lorraine, 2019 - 2022</p>
-                  <p className="mt-2">
-                    Graduated with a GPA of 4.0/4.0 and completed an internship as a software engineer at 
-                    <a href="https://worldline.com/" target="_blank" rel="noopener noreferrer">WorldLine</a>. 
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
+          
           <section>
             <h2 className="text-3xl font-serif font-semibold mb-6">Research Interests</h2>
             <div className="grid sm:grid-cols-2 gap-4">
