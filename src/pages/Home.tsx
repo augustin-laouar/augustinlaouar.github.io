@@ -13,7 +13,7 @@ const Home = () => {
             <span className="text-primary">Laouar</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Exploring the intersection of artificial intelligence, data science, and human-computer interaction
+            Exploring the intersection of Networking, Privacy, and System Architecture
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Button asChild size="lg" className="group">
@@ -29,59 +29,16 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Research Areas */}
-      <section className="bg-muted/30 py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-serif font-semibold text-center mb-12">
-            Research Areas
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-card p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-serif font-semibold mb-3">Machine Learning</h3>
-              <p className="text-muted-foreground">
-                Developing novel algorithms for pattern recognition and predictive modeling in complex systems.
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-serif font-semibold mb-3">Natural Language Processing</h3>
-              <p className="text-muted-foreground">
-                Advancing computational understanding of human language through deep learning techniques.
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-serif font-semibold mb-3">Data Visualization</h3>
-              <p className="text-muted-foreground">
-                Creating intuitive visual representations of complex datasets for enhanced understanding.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Recent Highlights */}
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-serif font-semibold mb-8">Recent Highlights</h2>
           <div className="space-y-6">
             <div className="border-l-2 border-primary pl-6 py-2">
-              <p className="text-sm text-muted-foreground mb-1">March 2024</p>
-              <h3 className="text-lg font-semibold mb-2">Paper accepted at ICML 2024</h3>
+              <p className="text-sm text-muted-foreground mb-1">September 2024</p>
+              <h3 className="text-lg font-semibold mb-2">Paper accepted at ACM HotNets 2025</h3>
               <p className="text-muted-foreground">
-                Our work on "Adaptive Learning Rates for Neural Networks" has been accepted for presentation.
-              </p>
-            </div>
-            <div className="border-l-2 border-secondary pl-6 py-2">
-              <p className="text-sm text-muted-foreground mb-1">January 2024</p>
-              <h3 className="text-lg font-semibold mb-2">Research Grant Awarded</h3>
-              <p className="text-muted-foreground">
-                Received funding for investigating ethical AI frameworks in medical diagnosis systems.
-              </p>
-            </div>
-            <div className="border-l-2 border-primary pl-6 py-2">
-              <p className="text-sm text-muted-foreground mb-1">November 2023</p>
-              <h3 className="text-lg font-semibold mb-2">Keynote Speaker at AI Summit</h3>
-              <p className="text-muted-foreground">
-                Presented research on interpretable machine learning models to industry leaders.
+                Our paper "Rethinking Geolocalization on the Internet" has been accepted and will be presented at HotNets 2025.
               </p>
             </div>
           </div>
