@@ -18,7 +18,7 @@ const CV = () => {
           <section className="mb-12">
             <div className="flex items-center gap-3 mb-6">
               <Briefcase className="h-6 w-6 text-primary" />
-              <h2 className="text-3xl font-serif font-semibold">Experience</h2>
+              <h2 className="text-3xl font-serif font-semibold">Research Experience</h2>
             </div>
             <div className="space-y-6 border-l-2 border-border pl-6 ml-3">
               <div>
@@ -43,7 +43,7 @@ const CV = () => {
                 <p className="text-muted-foreground">Université Claude Bernard Lyon 1 • Nov 2024 – Jun 2025</p>
                 <ul className="mt-2 space-y-1 text-muted-foreground">
                   <li>• Studied security and privacy impact of IoT devices.</li>
-                  <li>• Reverse-engineered IoT devices using Ghidra and Wireshark.</li>
+                  <li>• Reverse‑engineered IoT devices using Ghidra and Wireshark.</li>
                   <li>• Discovered several device vulnerabilities.</li>
                 </ul>
               </div>
@@ -65,7 +65,32 @@ const CV = () => {
             </div>
           </section>
 
-          {/* Publications */}
+          {/* Industry Experience */}
+          <section className="mb-12">
+            <div className="flex items-center gap-3 mb-6">
+              <Briefcase className="h-6 w-6 text-primary" />
+              <h2 className="text-3xl font-serif font-semibold">Industry Experience</h2>
+            </div>
+            <div className="space-y-6 border-l-2 border-border pl-6 ml-3">
+              <div>
+                <h3 className="text-xl font-semibold">Network Engineer Apprentice</h3>
+                <p className="text-muted-foreground">Viveris • Sept 2023 – Sept 2024</p>
+                <ul className="mt-2 space-y-1 text-muted-foreground">
+                  <li>• Led network infrastructure upgrades toward ISO 27001 alignment.</li>
+                  <li>• Reduced infrastructure costs by 25% using OPNSense, OpenVAS, and Zabbix.</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold">Software Engineer Intern</h3>
+                <p className="text-muted-foreground">Worldline • Apr 2022 – Aug 2022</p>
+                <ul className="mt-2 space-y-1 text-muted-foreground">
+                  <li>• Built financial tools using Java Spring and PostgreSQL.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          {/* Awards & Honors */}
           <section className="mb-12">
             <div className="flex items-center gap-3 mb-6">
               <Award className="h-6 w-6 text-primary" />
